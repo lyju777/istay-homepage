@@ -1,22 +1,33 @@
 <script setup>
+import Footer from './layouts/footer.vue'
 </script>
 
 <template>
-  <nav class="nav">
-    <router-link to="/">Home</router-link>
-    <router-link to="/istay">Istay</router-link>
+  <header>
+    <div class="header__container">
+      <div>
+        logo
+      </div>
+    <nav class="nav">
     <router-link to="/comepetitiveness">Comepetitiveness</router-link>
-    <router-link to="/benefits">Benefits</router-link>
-    <router-link to="/company">Company</router-link>
-    <router-link to="/contactus">ContactUs</router-link>
+    <router-link to="/Features">Features</router-link>
+    <router-link to="/Company">Company</router-link>
+    <router-link to="/ContactUs">ContactUs</router-link>
   </nav>
-  <router-view />
+  </div>
+  </header>
+
+    <main>
+      
+    </main>
+    <footer>
+      <Footer />
+    </footer>
 </template>
 
-<style scoped>
-.nav {
-  display: flex;
-  gap: 8px;
-  padding: 12px 16px;
+<style lang="scss" scoped>
+.header-container {
+  height: 100px;
+  border: 1px solid red;
 }
 </style>

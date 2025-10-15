@@ -1,13 +1,13 @@
 <template>
   <section>
-    <h1>Istay</h1>
+    <h1>Features</h1>
   </section>
   </template>
 
 <script setup>
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 section {
   padding: 24px;
 }
