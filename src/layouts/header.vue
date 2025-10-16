@@ -41,6 +41,7 @@
   height: 6.25rem;
   background: rgba(30, 30, 30, 0.2);
   &__container {
+    margin: 1rem 15rem;
     &__content {
       display: flex;
       justify-content: space-between;
@@ -61,6 +62,7 @@
           display: flex;
           flex-direction: row;
           list-style: none;
+          gap: 4.5rem;
           li {
             a {
               text-decoration: none;
