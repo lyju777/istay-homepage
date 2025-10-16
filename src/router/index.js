@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import i18n from '../i18n';
 
-const Comepetitiveness = () => import('../views/comepetitiveness.vue');
-const Features = () => import('../views/Features.vue');
-const Company = () => import('../views/Company.vue');
-const ContactUs = () => import('../views/ContactUs.vue');
-const Home = () => import('../views/Home.vue');
+import Home from '../views/Home.vue';
+import Comepetitiveness from '../views/Comepetitiveness.vue';
+import Features from '../views/Features.vue';
+import Company from '../views/Company.vue';
+import ContactUs from '../views/ContactUs.vue';
 
 const routes = [
   {
@@ -12,15 +13,41 @@ const routes = [
     name: 'Home',
     component: Home,
   },
-  { path: '/comepetitiveness', name: 'comepetitiveness', component: Comepetitiveness },
-  { path: '/features', name: 'features', component: Features },
-  { path: '/company', name: 'company', component: Company },
-  { path: '/contactus', name: 'contactus', component: ContactUs },
+  {
+    path: '/comepetitiveness',
+    name: 'Comepetitiveness',
+    component: Comepetitiveness,
+  },
+  {
+    path: '/features',
+    name: 'Features',
+    component: Features,
+  },
+  {
+    path: '/company',
+    name: 'Company',
+    component: Company,
+  },
+  {
+    path: '/contactus',
+    name: 'ContactUs',
+    component: ContactUs,
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: '/',
+  },
 ];
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes,
+});
+
+router.beforeEach((to, from, next) => {
+  const language = to.query.lang || 'ko';
+  i18n.global.locale.value = language;
+  return next();
 });
 
 export default router;

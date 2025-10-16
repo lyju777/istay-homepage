@@ -2,26 +2,30 @@
   <div class="header">
     <div class="header__container">
       <div class="header__container__content">
-        <span class="content-logo">
+        <router-link :to="{ path: '/', query: { lang: currentLanguage } }" class="content-logo">
           <img src="/public/images/logo_gnb.png" alt="logo" />
-        </span>
+        </router-link>
         <span class="content-menu">
-          <div class="content-lng">
-            <span>한국어</span>
-            <span>English</span>
+          <div class="content-language">
+            <span @click="setLanguage('ko')" :class="{ active: currentLanguage === 'ko' }" class="lang-item">
+              한국어
+            </span>
+            <span @click="setLanguage('en')" :class="{ active: currentLanguage === 'en' }" class="lang-item">
+              English
+            </span>
           </div>
           <ul>
             <li>
-              <router-link to="/comepetitiveness">Competitiveness</router-link>
+              <router-link :to="{ path: '/comepetitiveness' }">Competitiveness</router-link>
             </li>
             <li>
-              <router-link to="/features">Features</router-link>
+              <router-link :to="{ path: '/features' }">Features</router-link>
             </li>
             <li>
-              <router-link to="/company">Company</router-link>
+              <router-link :to="{ path: '/company' }">Company</router-link>
             </li>
             <li>
-              <router-link to="/contactus">Contact Us</router-link>
+              <router-link :to="{ path: '/contactus' }">Contact Us</router-link>
             </li>
           </ul>
         </span>
@@ -30,7 +34,19 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { computed } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
+
+const route = useRoute();
+const router = useRouter();
+
+const currentLanguage = computed(() => route.query.lang || 'ko');
+
+const setLanguage = lang => {
+  router.push({ path: route.path, query: { ...route.query, lang } });
+};
+</script>
 
 <style lang="scss" scoped>
 .header {
@@ -48,6 +64,8 @@
       align-items: center;
 
       .content-logo {
+        text-decoration: none;
+        display: inline-block;
         img {
           width: 4rem;
           height: 4.1rem;
@@ -55,7 +73,34 @@
       }
 
       .content-menu {
-        .content-lng {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        .content-language {
+          display: flex;
+          gap: 1rem;
+          margin-bottom: 0.5rem;
+
+          .lang-item {
+            cursor: pointer;
+            color: #8f8f8f;
+            opacity: 0.6;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+            vertical-align: baseline;
+            display: inline-block;
+
+            &:hover {
+              opacity: 0.8;
+            }
+
+            &.active {
+              opacity: 1;
+              color: #ffffff;
+              font-weight: bold;
+            }
+          }
         }
 
         ul {
