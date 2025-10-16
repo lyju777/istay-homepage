@@ -1,33 +1,33 @@
 <script setup>
-import Footer from './layouts/footer.vue'
+import Header from './layouts/header.vue';
+import Footer from './layouts/footer.vue';
+import Contact from './layouts/contact.vue';
 </script>
 
 <template>
-  <header>
-    <div class="header__container">
-      <div>
-        logo
-      </div>
-    <nav class="nav">
-    <router-link to="/comepetitiveness">Comepetitiveness</router-link>
-    <router-link to="/Features">Features</router-link>
-    <router-link to="/Company">Company</router-link>
-    <router-link to="/ContactUs">ContactUs</router-link>
-  </nav>
-  </div>
-  </header>
-
-    <main>
-      
+  <div id="app-wrapper">
+    <header>
+      <Header />
+    </header>
+    <main class="main-content">
+      <router-view />
     </main>
     <footer>
+      <Contact />
       <Footer />
     </footer>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-.header-container {
-  height: 100px;
-  border: 1px solid red;
+#app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-content {
+  flex: 1;
 }
 </style>
