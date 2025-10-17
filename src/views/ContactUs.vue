@@ -1,16 +1,7 @@
 <template>
-  <section>
-    <h1>ContactUs</h1>
-  </section>
-  </template>
-
-<script setup>
-</script>
-
-<style lang="scss" scoped>
-section {
-  padding: 24px;
-}
-</style>
-
-
+  <div class="contactus">
+    <div class="contactus__section1"></div>
+  </div>
+</template>
+<script setup></script>
+<style lang="scss" scoped></style>

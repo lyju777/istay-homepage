@@ -9,14 +9,20 @@
 
 html {
   font-size: 16px;
+  color: #fff;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  background-color: #fff;
 }
 
 body {
   min-height: 100vh;
   width: 100%;
+}
+
+.wrapper {
+  max-width: 90rem; /* 1440px */
+  margin: 0 auto;
+  padding: 0 2rem; /* 화면이 1440px보다 작아질 경우를 대비한 좌우 여백 */
 }

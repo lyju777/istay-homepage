@@ -1,16 +1,14 @@
 <template>
-  <section>
-    <h1>Company</h1>
-  </section>
-  </template>
+  <div class="company">
+    <div class="company__section1">
+      <Technology />
+    </div>
+    <div class="company__section2"></div>
+  </div>
+</template>
 
 <script setup>
+import Technology from '../layouts/technology.vue';
 </script>
 
-<style lang="scss" scoped>
-section {
-  padding: 24px;
-}
-</style>
-
-
+<style lang="scss" scoped></style>

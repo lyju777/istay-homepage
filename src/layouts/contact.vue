@@ -34,7 +34,6 @@
     align-items: center;
     justify-content: center;
     &__content {
-      color: #fff;
       text-align: center;
       font-size: 36px;
       font-weight: 700;

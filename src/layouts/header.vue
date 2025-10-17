@@ -6,7 +6,7 @@
           <img src="/public/images/logo_gnb.png" alt="logo" />
         </router-link>
         <span class="content-menu">
-          <div class="content-language">
+          <div v-if="route.path == '/'" class="content-language">
             <span @click="setLanguage('ko')" :class="{ active: currentLanguage === 'ko' }" class="lang-item">
               한국어
             </span>
@@ -16,16 +16,24 @@
           </div>
           <ul>
             <li>
-              <router-link :to="{ path: '/comepetitiveness' }">Competitiveness</router-link>
+              <router-link :to="{ path: '/comepetitiveness' }" :class="{ active: route.path === '/comepetitiveness' }"
+                >Competitiveness</router-link
+              >
             </li>
             <li>
-              <router-link :to="{ path: '/features' }">Features</router-link>
+              <router-link :to="{ path: '/features' }" :class="{ active: route.path === '/features' }"
+                >Features</router-link
+              >
             </li>
             <li>
-              <router-link :to="{ path: '/company' }">Company</router-link>
+              <router-link :to="{ path: '/company' }" :class="{ active: route.path === '/company' }"
+                >Company</router-link
+              >
             </li>
             <li>
-              <router-link :to="{ path: '/contactus' }">Contact Us</router-link>
+              <router-link :to="{ path: '/contactus' }" :class="{ active: route.path === '/contactus' }"
+                >Contact Us</router-link
+              >
             </li>
           </ul>
         </span>
@@ -78,14 +86,14 @@ const setLanguage = lang => {
         align-items: flex-end;
 
         .content-language {
+          font-size: 0.875rem;
           display: flex;
           gap: 1rem;
           margin-bottom: 0.5rem;
 
           .lang-item {
             cursor: pointer;
-            color: #8f8f8f;
-            opacity: 0.6;
+            color: rgba(255, 255, 255, 0.5);
             line-height: 1;
             margin-bottom: 0.5rem;
             vertical-align: baseline;
@@ -98,7 +106,6 @@ const setLanguage = lang => {
             &.active {
               opacity: 1;
               color: #ffffff;
-              font-weight: bold;
             }
           }
         }
@@ -107,11 +114,16 @@ const setLanguage = lang => {
           display: flex;
           flex-direction: row;
           list-style: none;
+          font-weight: 400;
           gap: 4.5rem;
           li {
             a {
               text-decoration: none;
               color: #fff;
+
+              &.active {
+                font-weight: 700;
+              }
             }
           }
         }
