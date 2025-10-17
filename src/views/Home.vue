@@ -3,7 +3,7 @@
 <template>
   <div class="home">
     <div class="home__section1">
-      <div class="home__section1__content">
+      <div class="wrapper">
         <div class="content-title">
           <p class="title1">{{ $t('home.section1.title1') }}</p>
           <span class="title2">{{ $t('home.section1.title2') }} <br />{{ $t('home.section1.title2_1') }}</span>
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="home__section2">
-      <div class="home__section2__content">
+      <div class="wrapper">
         <div class="content-title">
           <span class="title">여행자의 모든 여정을 함께 합니다.</span>
         </div>
@@ -39,7 +39,7 @@
               인터넷 대상 국무총리상 수상
             </span>
             <p>
-              한국을 대표하는 최고의 호텔 게스트 서비스 플랫폼, <br />iSTAY는 글로벌 1위 솔리션으로 힘차게
+              한국을 대표하는 최고의 호텔 게스트 서비스 플랫폼, <br />iSTAY는 글로벌 1위 솔루션으로 힘차게
               나아가겠습니다.
             </p>
           </div>
@@ -47,46 +47,48 @@
       </div>
     </div>
     <div class="home__section3">
-      <div class="home__section3__content">
-        <div class="box-item">
-          <img class="left-img" src="/public/images/features_1.png" alt="box1" />
-          <p>No Sign-up No <br />App installation</p>
-          <span
-            >게스트는 더이상 호텔마다 앱을 설치하고 <br />회원가입을 해야하는 불편을 겪지 않아도 됩니다. <br />앱
-            설치로부터 자유로운 편리한 사용경험을 제공합니다.</span
-          >
-        </div>
-        <div class="box-item">
-          <img class="right-img" src="/public/images/features_2.png" alt="box1" />
-          <p>Express Check-in <br />Mobile Check-out</p>
-          <span
-            >프론트 데스크에서 체크인/체크아웃을 위해 기다릴 필요 없이 <br />사전 체크인/셀프 체크아웃을 이용할 수
-            있습니다. <br />프론트 경유 없이 바로 객실로 이동 가능하도록 <br />모바일키가 제공됩니다.</span
-          >
-        </div>
-        <div class="box-item">
-          <img class="left-img" src="/public/images/features_3.png" alt="box2" />
-          <p>All-in-one <br />Mobile UI/UX</p>
-          <span
-            >모든 서비스와 정보가 게스트 폰으로, <br />게스트가 필요로 하는 모든 정보와 서비스가 <br />게스트와 가장
-            가깝고 친숙한 모바일 기기를 통해 제공됩니다.</span
-          >
-        </div>
-        <div class="box-item">
-          <img class="right-img" src="/public/images/features_4.png" alt="box3" />
-          <p>
-            Smart Room Control<br />
-            on Guest Mobile
-          </p>
-          <span
-            >게스트는 모바일 기기를 통해 조명, 온도, TV 등을<br />
-            손쉽게 제어할 수 있습니다. <br />스마트 제어 기술을 통해 더울 편리한 객실 경험을 제공합니다.</span
-          >
+      <div class="wrapper">
+        <div class="box-item-container">
+          <div class="box-item">
+            <img class="left-img" src="/public/images/features_1.png" alt="box1" />
+            <p>No Sign-up No <br />App installation</p>
+            <span
+              >게스트는 더이상 호텔마다 앱을 설치하고 <br />회원가입을 해야하는 불편을 겪지 않아도 됩니다. <br />앱
+              설치로부터 자유로운 편리한 사용경험을 제공합니다.</span
+            >
+          </div>
+          <div class="box-item">
+            <img class="right-img" src="/public/images/features_2.png" alt="box1" />
+            <p>Express Check-in <br />Mobile Check-out</p>
+            <span
+              >프론트 데스크에서 체크인/체크아웃을 위해 기다릴 필요 없이 <br />사전 체크인/셀프 체크아웃을 이용할 수
+              있습니다. <br />프론트 경유 없이 바로 객실로 이동 가능하도록 <br />모바일키가 제공됩니다.</span
+            >
+          </div>
+          <div class="box-item">
+            <img class="left-img" src="/public/images/features_3.png" alt="box2" />
+            <p>All-in-one <br />Mobile UI/UX</p>
+            <span
+              >모든 서비스와 정보가 게스트 폰으로, <br />게스트가 필요로 하는 모든 정보와 서비스가 <br />게스트와 가장
+              가깝고 친숙한 모바일 기기를 통해 제공됩니다.</span
+            >
+          </div>
+          <div class="box-item">
+            <img class="right-img" src="/public/images/features_4.png" alt="box3" />
+            <p>
+              Smart Room Control<br />
+              on Guest Mobile
+            </p>
+            <span
+              >게스트는 모바일 기기를 통해 조명, 온도, TV 등을<br />
+              손쉽게 제어할 수 있습니다. <br />스마트 제어 기술을 통해 더울 편리한 객실 경험을 제공합니다.</span
+            >
+          </div>
         </div>
       </div>
     </div>
     <div class="home__section4">
-      <div class="home__section4__content">
+      <div class="wrapper">
         <div class="content-title">
           <p>고객사</p>
         </div>
@@ -96,7 +98,7 @@
       </div>
     </div>
     <div class="home__section5">
-      <div class="home__section5__content">
+      <div class="wrapper">
         <div class="content-title">
           <p>파트너사</p>
         </div>
@@ -116,11 +118,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    &__content {
+    .wrapper {
+      position: relative;
+      height: 100%;
+
       .content-title {
         position: absolute;
-        margin-top: 28.5rem;
-        margin-left: 15rem;
+        top: 28.5rem;
         .title1 {
           font-size: 1.5rem;
         }
@@ -136,18 +140,15 @@
   }
   &__section2 {
     height: 67.5rem;
-    // background: rgba(0, 0, 0, 0.2);
     background-color: rgb(33, 37, 41);
     display: flex;
     justify-content: center;
-    &__content {
+    align-items: center;
+    .wrapper {
+      text-align: center;
+
       .content-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         .title {
-          margin-top: 7.5rem;
           font-size: 2.3rem;
           font-weight: 700;
         }
@@ -163,8 +164,7 @@
           display: flex;
           flex-direction: column;
           padding: 3.75rem;
-          width: 44rem;
-          height: 18.6rem;
+          text-align: left;
           border-radius: 1.25rem;
           background: rgba(255, 255, 255, 0.1);
 
@@ -185,16 +185,14 @@
     }
   }
   &__section3 {
-    height: 166rem;
-    background-color: #f1f3f5;
-    display: flex;
-    justify-content: center;
     padding: 7.5rem 0 10rem 0;
-    &__content {
-      display: flex;
-      flex-direction: column;
-      gap: 6.3rem;
-      width: 90rem;
+    background-color: #f1f3f5;
+    .wrapper {
+      .box-item-container {
+        display: flex;
+        flex-direction: column;
+        gap: 6.3rem;
+      }
       .box-item {
         overflow: hidden;
 
@@ -223,12 +221,13 @@
     }
   }
   &__section4 {
-    border-bottom: 1px solid #000;
     height: 37.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &__content {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
       .content-title {
         p {
           color: #000;
@@ -238,21 +237,22 @@
         }
       }
       .content-image {
-        padding: 1.9rem 8rem;
-      }
-      img {
-        width: 74rem;
-        height: 20rem;
+        padding: 1.9rem 0;
+        img {
+          max-width: 100%;
+        }
       }
     }
   }
   &__section5 {
-    border-bottom: 1px solid #000;
     height: 45rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &__content {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
       .content-title {
         p {
           color: #000;
@@ -263,8 +263,7 @@
       }
       .content-image {
         img {
-          width: 74rem;
-          height: 20rem;
+          max-width: 100%;
         }
       }
     }

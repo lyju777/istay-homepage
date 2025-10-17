@@ -1,11 +1,9 @@
 <template>
   <div class="technology">
-    <div class="technology__container">
-      <div class="technology__container__content">
-        <div class="content-title">
-          <p class="title1">{{ $t(`technology.${currentSection}.title1`) }}</p>
-          <p class="title2">{{ $t(`technology.${currentSection}.title2`) }}</p>
-        </div>
+    <div class="wrapper">
+      <div class="content-title">
+        <p class="title1">{{ $t(`technology.${currentSection}.title1`) }}</p>
+        <p class="title2">{{ $t(`technology.${currentSection}.title2`) }}</p>
       </div>
     </div>
   </div>
@@ -37,28 +35,25 @@ const currentSection = computed(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  &__container {
-    width: 100%;
+  .wrapper {
     height: 100%;
-    &__content {
-      height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content-title {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      .content-title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        .title1 {
-          font-size: 1.5rem;
-          margin-bottom: 0.75rem;
-        }
-        .title2 {
-          font-size: 3rem;
-          font-weight: 700;
-        }
+      text-align: center;
+      .title1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+      }
+      .title2 {
+        font-size: 3rem;
+        font-weight: 700;
       }
     }
   }
