@@ -62,6 +62,7 @@ const setLanguage = lang => {
   display: flex;
   align-items: center;
   background: rgba(30, 30, 30, 0.2);
+  z-index: 100;
 
   .wrapper {
     display: flex;
