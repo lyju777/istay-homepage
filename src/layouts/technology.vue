@@ -2,8 +2,8 @@
   <div class="technology">
     <div class="wrapper">
       <div class="content-title">
-        <p class="title1">{{ $t(`technology.${currentSection}.title1`) }}</p>
-        <p class="title2">{{ $t(`technology.${currentSection}.title2`) }}</p>
+        <p>{{ $t(`technology.${currentSection}.title1`) }}</p>
+        <p>{{ $t(`technology.${currentSection}.title2`) }}</p>
       </div>
     </div>
   </div>
@@ -36,22 +36,14 @@ const currentSection = computed(() => {
   align-items: center;
   justify-content: center;
   .wrapper {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     .content-title {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      margin-top: 6.3rem;
       text-align: center;
-      .title1 {
+      & > p {
         font-size: 1.5rem;
         margin-bottom: 0.75rem;
       }
-      .title2 {
+      & > p:last-child {
         font-size: 3rem;
         font-weight: 700;
       }

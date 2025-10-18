@@ -2,17 +2,12 @@
   <div class="contact">
     <div class="wrapper">
       <div class="content-title">
-        <p class="title">커져가는 호텔 시장 속에서</p>
-        <p class="title">iSTAY는 성장하고 있습니다.</p>
+        <p class="title">{{ $t('contact.home.title') }}</p>
       </div>
       <div class="content-text">
-        <p class="content"></p>
-        끊임없이 변화하는 호텔 산업 속에서, iSTAY는 혁신적인 기술과 유연한 서비스로 성장하고 있습니다.
-
-        <p class="content">고객의 경험을 더 가치 있게 만드는 연결,</p>
-        <p class="content">iSTAY는 호텔 비즈니스의 효율과 품격을 높이는 디지털 컨시어지 솔루션을 제공합니다.</p>
+        <p class="content">{{ $t('contact.home.description') }}</p>
       </div>
-      <button class="contact-button">문의하기</button>
+      <button class="contact-button">{{ $t('contact.buttonText') }}</button>
     </div>
   </div>
 </template>
@@ -35,9 +30,9 @@
     font-size: 36px;
     font-weight: 700;
     .content-title {
-      margin-top: 7.5rem;
       .title {
         display: block;
+        white-space: pre-line;
       }
     }
 
@@ -50,6 +45,7 @@
       font-style: normal;
       font-weight: 500;
       line-height: 2.25rem;
+      white-space: pre-line;
     }
 
     .contact-button {
@@ -63,7 +59,7 @@
       background: #ff5100;
       cursor: pointer;
       border: none;
-      margin-top: 8.38rem;
+      margin-top: 7rem;
     }
   }
 }

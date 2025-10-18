@@ -5,13 +5,11 @@
         <img src="/public/images/logo_footer.png" alt="logo" />
       </div>
       <div class="content-info">
-        <p class="company">(주) 티오더스테이</p>
+        <p class="company">{{ $t('footer.company') }}</p>
         <br />
-        <p class="address">
-          주소: 서울특별시 영등포구 여의대로 108, 파크원타워 2, 46층 | 사업자 등록번호: 469-81-00232
-        </p>
-        <p class="phone">대표번호: 1644-2360 | 대표메일: contactus@torderstay.com</p>
-        <p class="copyright">© 2025 torderstay. All rights reserved.</p>
+        <p class="address">{{ $t('footer.address') }} | {{ $t('footer.businessNumber') }}</p>
+        <p class="phone">{{ $t('footer.contact') }}</p>
+        <p class="copyright">{{ $t('footer.copyright') }}</p>
       </div>
     </div>
   </div>

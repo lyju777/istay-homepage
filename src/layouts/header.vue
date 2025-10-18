@@ -6,10 +6,10 @@
       </router-link>
       <span class="content-menu">
         <div v-if="route.path == '/'" class="content-language">
-          <span @click="setLanguage('ko')" :class="{ active: currentLanguage === 'ko' }" class="lang-item">
+          <span @click="setLanguage('ko')" :class="{ active: currentLanguage === 'ko' }" class="lng-item">
             한국어
           </span>
-          <span @click="setLanguage('en')" :class="{ active: currentLanguage === 'en' }" class="lang-item">
+          <span @click="setLanguage('en')" :class="{ active: currentLanguage === 'en' }" class="lng-item">
             English
           </span>
         </div>
@@ -89,7 +89,7 @@ const setLanguage = lang => {
         gap: 1rem;
         margin-bottom: 0.5rem;
 
-        .lang-item {
+        .lng-item {
           cursor: pointer;
           color: rgba(255, 255, 255, 0.5);
           line-height: 1;
