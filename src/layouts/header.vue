@@ -15,20 +15,30 @@
         </div>
         <ul>
           <li>
-            <router-link :to="{ path: '/comepetitiveness' }" :class="{ active: route.path === '/comepetitiveness' }"
+            <router-link
+              :to="{ path: '/comepetitiveness', query: { lang: currentLanguage } }"
+              :class="{ active: route.path === '/comepetitiveness' }"
               >Competitiveness</router-link
             >
           </li>
           <li>
-            <router-link :to="{ path: '/features' }" :class="{ active: route.path === '/features' }"
+            <router-link
+              :to="{ path: '/features', query: { lang: currentLanguage } }"
+              :class="{ active: route.path === '/features' }"
               >Features</router-link
             >
           </li>
           <li>
-            <router-link :to="{ path: '/company' }" :class="{ active: route.path === '/company' }">Company</router-link>
+            <router-link
+              :to="{ path: '/company', query: { lang: currentLanguage } }"
+              :class="{ active: route.path === '/company' }"
+              >Company</router-link
+            >
           </li>
           <li>
-            <router-link :to="{ path: '/contactus' }" :class="{ active: route.path === '/contactus' }"
+            <router-link
+              :to="{ path: '/contactus', query: { lang: currentLanguage } }"
+              :class="{ active: route.path === '/contactus' }"
               >Contact Us</router-link
             >
           </li>
