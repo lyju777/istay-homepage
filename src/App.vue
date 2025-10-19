@@ -5,11 +5,11 @@ import Contact from './layouts/contact.vue';
 </script>
 
 <template>
-  <div id="app-wrapper">
+  <div id="app-container">
     <header>
       <Header />
     </header>
-    <main class="main-content">
+    <main>
       <router-view />
     </main>
     <footer>
@@ -20,14 +20,8 @@ import Contact from './layouts/contact.vue';
 </template>
 
 <style lang="scss" scoped>
-#app-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+#app-container {
   width: 100%;
-}
-
-.main-content {
-  flex: 1;
+  min-height: 100vh;
 }
 </style>

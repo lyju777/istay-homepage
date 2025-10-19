@@ -37,7 +37,7 @@
     </div>
     <div class="home__section3">
       <div class="wrapper">
-        <div class="box-item-container">
+        <div class="content-box">
           <div class="box-item">
             <img class="left-img" src="/public/images/features_1.png" alt="box1" />
             <h2>{{ $t('home.section3.item1_title') }}</h2>
@@ -101,9 +101,7 @@
         }
         & > p:last-child {
           font-size: 3rem;
-          height: 35.5rem;
           font-weight: 700;
-          display: inline-block;
           margin-top: 1.5rem;
           white-space: pre-line;
         }
@@ -158,39 +156,39 @@
     }
   }
   &__section3 {
-    padding: 7.5rem 0 10rem 0;
+    // padding: 7.5rem 0 10rem 0;
     background-color: #f1f3f5;
     .wrapper {
-      .box-item-container {
+      .content-box {
         display: flex;
         flex-direction: column;
         gap: 6.3rem;
-      }
-      .box-item {
-        overflow: hidden;
+        .box-item {
+          overflow: hidden;
 
-        .left-img {
-          float: left;
-          margin-right: 5rem;
-        }
-        .right-img {
-          float: right;
-        }
+          .left-img {
+            float: left;
+            margin-right: 5rem;
+          }
+          .right-img {
+            float: right;
+          }
 
-        p {
-          color: #777;
-          font-size: 1.5rem;
-          line-height: 2.25rem;
-          white-space: pre-line;
-        }
+          p {
+            color: #777;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            white-space: pre-line;
+          }
 
-        h2 {
-          margin-top: 8rem;
-          margin-bottom: 1.9rem;
-          color: #000;
-          font-size: 3.25rem;
-          font-weight: 700;
-          white-space: pre-line;
+          h2 {
+            margin-top: 8rem;
+            margin-bottom: 1.9rem;
+            color: #000;
+            font-size: 3.25rem;
+            font-weight: 700;
+            white-space: pre-line;
+          }
         }
       }
     }
@@ -211,6 +209,9 @@
         }
       }
       .content-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 1.9rem 0;
         img {
           max-width: 100%;
@@ -233,6 +234,9 @@
         }
       }
       .content-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         img {
           max-width: 100%;
         }
