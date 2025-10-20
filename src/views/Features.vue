@@ -81,7 +81,8 @@ import Technology from '../layouts/technology.vue';
 <style lang="scss" scoped>
 .features {
   &__section2 {
-    height: 203rem;
+    height: 200rem;
+    padding-top: 7.5rem;
   }
 
   .wrapper {
@@ -91,7 +92,7 @@ import Technology from '../layouts/technology.vue';
       h3 {
         font-size: 2.3rem;
         font-weight: 700;
-        margin-top: 7.5rem;
+
         color: #000;
       }
     }

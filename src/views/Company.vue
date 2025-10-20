@@ -62,12 +62,12 @@ import Technology from '../layouts/technology.vue';
 <style lang="scss" scoped>
 .company {
   &__section2 {
-    height: 42rem;
+    height: 40rem;
+    padding-top: 7.5rem;
 
     .wrapper {
       .section-title {
         text-align: center;
-        margin-top: 7.5rem;
         margin-bottom: 3.7rem;
         h3 {
           font-size: 2.25rem;
@@ -112,7 +112,8 @@ import Technology from '../layouts/technology.vue';
     }
   }
   &__section3 {
-    height: 119rem;
+    height: 112rem;
+    padding-top: 7.5rem;
     background-color: #f5f6f7;
     .wrapper {
       .section-title {
@@ -121,9 +122,6 @@ import Technology from '../layouts/technology.vue';
           text-align: center;
           font-size: 2.25rem;
           font-weight: 700;
-        }
-
-        span {
         }
       }
     }

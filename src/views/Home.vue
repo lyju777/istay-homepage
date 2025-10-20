@@ -156,9 +156,8 @@
     }
   }
   &__section3 {
-    // padding: 7.5rem 0 10rem 0;
-    margin-top: 7.5rem;
-    margin-bottom: 10rem;
+    height: 157rem;
+    padding-top: 7.5rem;
     .wrapper {
       .content-box {
         display: flex;
