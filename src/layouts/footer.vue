@@ -8,7 +8,7 @@
         <p class="company">{{ $t('footer.company') }}</p>
         <br />
         <p class="address">{{ $t('footer.address') }} | {{ $t('footer.businessNumber') }}</p>
-        <p class="phone">{{ $t('footer.contact') }}</p>
+        <p class="phone">{{ $t('footer.contact') }} | {{ $t('footer.email') }}</p>
         <p class="copyright">{{ $t('footer.copyright') }}</p>
       </div>
     </div>

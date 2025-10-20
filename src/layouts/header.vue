@@ -5,7 +5,7 @@
         <img src="/public/images/logo_gnb.png" alt="logo" />
       </router-link>
       <span class="content-menu">
-        <div v-if="route.path == '/'" class="content-language">
+        <div class="content-language">
           <span @click="setLanguage('ko')" :class="{ active: currentLanguage === 'ko' }" class="lng-item">
             한국어
           </span>

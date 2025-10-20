@@ -157,7 +157,8 @@
   }
   &__section3 {
     // padding: 7.5rem 0 10rem 0;
-    background-color: #f1f3f5;
+    margin-top: 7.5rem;
+    margin-bottom: 10rem;
     .wrapper {
       .content-box {
         display: flex;
