@@ -37,7 +37,6 @@ export default {
     section5: {
       title: '파트너사',
     },
-    section6: {},
   },
 
   technology: {
@@ -140,7 +139,43 @@ export default {
       title: 'History',
 
       box1_title: '2025',
-      box1_desc: '태국법인 설립',
+      box1_desc1: '코스모스 올모드 계약',
+      box1_desc2: '신한연수원 · 사이벨 리조트 계약',
+      box1_desc3: '한화리조트 · 한림광천 계약',
+      box1_desc4: 'LG 호텔 TV 협업 체결',
+
+      box2_title: '2024',
+      box2_desc1: '티오더스테이 사업 통합 및 대주주 변경',
+      box2_desc2: '신라호텔 서울 계약',
+      box2_desc3: 'LG전자 공동 참가 (HCJ 2024, Japan)',
+      box2_desc4: '스카이파크 호텔 · 타다 MOU 체결',
+      box2_desc5: '체크인/웨이팅 통합 솔루션 개발',
+
+      box3_title: '2023',
+      box3_desc1: '인스파이어 엔터테인먼트 리조트 계약',
+      box3_desc2: '테이블오더 서비스 정식 출시',
+      box3_desc3: '일본 유타카검진센터 · 르메르디앙 명동 계약',
+
+      box4_title: '2021',
+      box4_desc1: '조선팰리스 서울 · 소피텔 서울 · 대구 메리어트 계약',
+      box4_desc2: '워커힐 · 앰배서더 · 켄싱턴 · 코오롱 리조트 계약',
+
+      box5_title: '2019 - 2020',
+      box5_desc1: '일본 HCJ 박람회 참가',
+      box5_desc2: '산업통상자원부 기술과제 다수 수행',
+      box5_desc3: '삼성전자 / 아눅전자 / 산업정보통신 NDA 체결',
+      box5_desc4: 'APAC CIO Top 10 IoT Solution 선정',
+
+      box6_title: '2017 - 2018',
+      box6_desc1: 'iSTAY 브랜드 론칭 및 KT MOU 체결',
+      box6_desc2: '앰배서더호텔 그룹 투자유치',
+      box6_desc3: 'TIPS 프로그램 선정 (엔텔스 투자)',
+      box6_desc4: '산업통상자원부 장관상 수상',
+
+      box7_title: '2015 - 2016',
+      box7_desc1: '인더코어 비즈니스플랫폼 법인 설립',
+      box7_desc2: '서울시 스마트조명 MOU 체결 및 iLighting 출시',
+      box7_desc3: '그랜드앰배서더호텔, 노보텔 등 조명 공급',
     },
   },
 

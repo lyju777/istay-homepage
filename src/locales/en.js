@@ -1,136 +1,124 @@
 export default {
-  header: {
-    menu: {
-      competitiveness: 'Competitiveness',
-      features: 'Features',
-      company: 'Company',
-      contact: 'Contact Us',
-    },
-  },
-
   home: {
     section1: {
-      title1: 'From reservation confirmation to checkout',
-      title2: 'All services and room control \nat your fingertips with one touch.',
+      title1: '예약확정 후부터 체크아웃까지',
+      title2: '모든 서비스와 룸 컨트롤이 \n게스트의 손안에서 원터치로.',
     },
     section2: {
-      title: 'We accompany every journey of travelers.',
-      box1_title: 'Integrated Hotel Guest \nService Platform iSTAY',
-      box1_desc:
-        'iSTAY allows hotel guests to use it comfortably \nwithout app installation or complicated registration procedures.',
-      box2_title: 'The best solution chosen by \nthe best hotels',
-      box2_desc: 'A highly satisfied solution verified in the high-end market, \nstably provided to 260 customers.',
-      box3_title: 'The key to profitability\nDigital transformation of guest services',
+      title: '여행자의 모든 여정을 함께 합니다.',
+      box1_title: '통합 호텔 게스트 \n서비스 플랫폼 iSTAY',
+      box1_desc: 'iSTAY는 앱 설치 또는 번거로운 가입절차가 없어 \n호텔 게스트가 편하게 사용할 수 있습니다.',
+      box2_title: '최고의 호텔들로부터 \n선택받은 최고의 솔루션',
+      box2_desc: '하이엔드 시장에서 검증된 \n만족도 높은 솔루션, \n260개 고객사에 안정적으로 제공되고 있습니다.',
+      box3_title: '수익성 향상의 열쇠\n게스트 서비스의 디지털 전환',
       box3_desc:
-        'Maximize additional revenue through iSTAY, reduce service error costs, \nbig data-based management innovation, catch three rabbits at once!',
-      box4_title: '17th Korea Internet Award\nPrime Minister Award',
+        'iSTAY를 통한 추가 매출 극대화, 서비스 오류비용 절감, \n빅데이터 기반 경영혁신, 세마리의 토끼를 한번에!',
+      box4_title: '제17회 대한민국\n인터넷 대상 국무총리상 수상',
       box4_desc:
-        "iSTAY, Korea's leading hotel guest service platform, \nwill boldly advance as the world's No. 1 solution.",
+        '한국을 대표하는 최고의 호텔 게스트 서비스 플랫폼, \niSTAY는 글로벌 1위 솔루션으로 힘차게\n나아가겠습니다.',
     },
     section3: {
       item1_title: 'No Sign-up No \nApp installation',
       item1_desc:
-        'Guests no longer have to install apps and \nregister for each hotel. \nProvides a convenient user experience free from app installation.',
+        '게스트는 더이상 호텔마다 앱을 설치하고 \n회원가입을 해야하는 불편을 겪지 않아도 됩니다. \n앱 설치로부터 자유로운 편리한 사용경험을 제공합니다.',
       item2_title: 'Express Check-in \nMobile Check-out',
       item2_desc:
-        'You can use pre-check-in/self-checkout without waiting \nat the front desk for check-in/checkout. \nMobile keys are provided so you can go directly to your room \nwithout going through the front desk.',
+        '프론트 데스크에서 체크인/체크아웃을 위해 기다릴 필요 없이 \n사전 체크인/셀프 체크아웃을 이용할 수 있습니다. \n프론트 경유 없이 바로 객실로 이동 가능하도록 \n모바일키가 제공됩니다.',
       item3_title: 'All-in-one \nMobile UI/UX',
       item3_desc:
-        "All services and information are provided to the guest's phone, \nall information and services that guests need \nare provided through the guest's closest and most familiar mobile device.",
+        '모든 서비스와 정보가 게스트 폰으로, \n게스트가 필요로 하는 모든 정보와 서비스가 \n게스트와 가장 가깝고 친숙한 모바일 기기를 통해 제공됩니다.',
       item4_title: 'Smart Room Control\non Guest Mobile',
       item4_desc:
-        'Guests can easily control lighting, temperature, TV, etc. \nthrough mobile devices. \nProvides a more convenient room experience through smart control technology.',
+        '게스트는 모바일 기기를 통해 조명, 온도, TV 등을\n손쉽게 제어할 수 있습니다. \n스마트 제어 기술을 통해 더울 편리한 객실 경험을 제공합니다.',
     },
     section4: {
-      title: 'Clients',
+      title: '고객사',
     },
     section5: {
-      title: 'Partners',
+      title: '파트너사',
     },
-    section6: {},
   },
 
   technology: {
     competitiveness: {
-      title1: 'Leading guest services and creating new standards for guest experience.',
-      title2: "iSTAY's Competitiveness",
+      title1: '게스트 서비스를 선도하며, 게스트 경험의 새로운 기준을 만듭니다.',
+      title2: 'iSTAY의 경쟁력',
     },
     features: {
-      title1:
-        'From operational efficiency to customer experience, an integrated service platform completed with technology',
-      title2: "iSTAY's Features",
+      title1: '운영 효율부터 고객 경험까지, 기술로 완성하는 통합 서비스 플랫폼',
+      title2: 'iSTAY의 특장점',
     },
     company: {
-      title1: 'We move forward for the growth of a sustainable hotel service platform.',
-      title2: "About t'order stay",
+      title1: '지속 가능한 호텔 서비스 플랫폼의 성장을 위해 나아갑니다. ',
+      title2: 't’order stay 소개',
     },
   },
 
   competitiveness: {
-    title: 'Competitiveness',
+    title: '경쟁력',
     section2: {
-      title: 'Advanced integrated functions based on understanding of hotels',
+      title: '호텔에 대한 이해를 바탕으로 고도화 된 통합기능',
       description:
-        'iSTAY is designed to accurately reflect the details and multi-layered requirements of hotel business.\nAs a result, we have realized technical details and know-how that integrate and operate normally\nthe detailed protocols between numerous devices and systems.',
-      box1_title: 'Best Security',
+        'iSTAY는 호텔 비즈니스의 디테일과 다층적인 요구를 정확히 반영하여 설계되어 있습니다.\n그 결과 수많은 기기와 시스템간의 세분화된 프로토콜을 통합하고\n정상적으로 가동시키는 기술적 디테일과 노하우를 실현하였습니다.',
+      box1_title: '최고의 보안',
       box1_desc:
-        'iSTAY provides strong security features. \nAlthough not visible on the outside, \nhotel security is one of the core aspects of hotel brand management. \nWith a single security authentication, guest information is protected, \nand accurate permissions are granted without error from check-in to checkout.',
-      box2_title: 'High Reliability',
+        'iSTAY는 강력한 보안 기능을 제공합니다. \n겉으로 보이지 않지만, \n호텔의 보안은 호텔 브랜드 관리의 핵심사항 중 하나입니다. \n단한번의 보안인증으로 게스트의 정보가 보호되며, \n체크인부터 체크아웃까지 착오없이 정확한 권한이 부여됩니다.',
+      box2_title: '높은 신뢰성',
       box2_desc:
-        "iSTAY prioritizes trust. \nWe have been doing our best to meet the needs of Korea's top hotels for many years \nand have provided stable technical support. \nBased on high service satisfaction, \nexperience iSTAY's accumulated operational experience.",
+        'iSTAY는 신뢰를 최우선합니다. \n다년간 국내 최고 호텔의 니즈에 부합하기 위해 최선을 다해 \n안정적인 기술적 지원을 해왔습니다. \n높은 서비스 이용 만족도를 바탕으로 \niSTAY의 축적된 운영경험을 경험해보세요.',
 
-      box3_title: 'Free Scalability',
+      box3_title: '자유로운 확장성',
       box3_desc:
-        'iSTAY is a guest experience platform beyond solutions \noptimized for maintenance and \nfunction expansion through modularization of each function. \nThrough close linkage with partners, \nwe are doing our best to provide more diverse services.',
-      box4_title: 'Flexibility of Editing',
+        'iSTAY는 솔루션을 넘어선 게스트 경험 플랫폼으로 \n각 기능의 모듈화를 통해 유지보수와 \n기능확장에 최적화 되어있습니다. \n파트너사와의 긴밀한 연동으로 \n보다 다양한 서비스를 제공하기 위해 최선을 다하고 있습니다.',
+      box4_title: '편집의 유연성',
       box4_desc:
-        'iSTAY supports easy and fast hotel content editing. \nFor customers sensitive to trends, \nchanging hotel service content can be \neasily and quickly updated directly at no additional cost.',
+        'iSTAY는 쉽고 빠르게 호텔 컨텐츠 편집을 지원합니다. \n트렌드에 민감한 고객을 위해 \n수시로 변화되는 호텔 서비스 컨텐츠를 \n추가 비용 없이 쉽고 빠르게 직접 업데이트 할 수 있습니다.',
     },
   },
 
   features: {
     section2: {
-      title: 'Integrated Hotel Guest Service Platform iSTAY',
+      title: '통합 호텔 게스트 서비스 플랫폼 iSTAY',
 
       box1_title: 'Mobile Check-In',
       box1_desc:
-        'Mobile check-in function reduces check-in waiting lines to increase customer satisfaction, \nand reduces the workload of front staff.',
-      box1_content1: 'Pre-check-in \nNotification message',
-      box1_content2: 'Registration card',
-      box1_content3: 'PMS integration \nCheck-in complete',
-      box1_content4: 'Key issuance after \nidentity verification',
+        '모바일 체크인 기능으로 체크인 대기줄을 줄여 고객 만족도를 높이고, \n프론트 직원의 업무로드를 줄여주는 효과를 얻을 수 있습니다.',
+      box1_content1: '사전 체크인 \n알림톡 메시지',
+      box1_content2: '레지카드 작성',
+      box1_content3: 'PMS 연동 \n체크인 완료',
+      box1_content4: '본인 확인 후 \n키 발급',
 
       box2_title: 'No app, No download',
       box2_desc:
-        'It can be used in web format without downloading a separate app.\n A dedicated page that can only be used during the stay period is provided through PMS integration, \npreventing checkout or non-staying guests from ordering incorrectly.',
-      box2_content1: 'Notification, SMS \nmessage sending',
-      box2_content2: 'Registration card',
-      box2_content3: 'PMS integration \nCheck-in complete',
-      box2_content4: 'Key issuance after \nidentity verification',
+        '별도의 앱 다운로드 없이, 웹 방식으로 사용이 가능합니다.\n PMS 연동으로 투숙기간 내에만 사용 가능한 전용 페이지가 제공되어, \n체크아웃 혹은 비투숙객의 오주문을 방지합니다.',
+      box2_content1: '알림톡, SMS \n메시지 발송',
+      box2_content2: '레지카드 작성',
+      box2_content3: 'PMS 연동 \n체크인 완료',
+      box2_content4: '본인 확인 후 \n키 발급',
 
       box3_title: 'In-Room Order',
       box3_desc:
-        'Provides a hotel-exclusive mobile commerce platform to easily register various products. \nThrough this, you can get additional revenue increase effects.',
-      box3_content1: 'Instant \nmenu update',
-      box3_content2: 'Real-time order notification',
-      box3_content3: 'Mobile \nPG payment support',
-      box3_content4: 'Amenity \nroom service, minibar \nhotel products',
+        '호텔 전용 모바일 커머스 플랫폼을 제공하여 다양한 상품을 \n간편하게 등록 할 수 있습니다. \n이를 통한 부가적인 매출 상승 효과를 얻을 수 있습니다.',
+      box3_content1: '즉각적인 \n메뉴 업데이트',
+      box3_content2: '실시간 주문 알림',
+      box3_content3: '모바일 \nPG 결제 지원',
+      box3_content4: '어메니티 \n룸서비스, 미니바 \n호텔 상품',
 
       box4_title: 'Facility Reservation',
       box4_desc:
-        'Provides complete reservation functionality that can be used in all places requiring reservations within the hotel. \nAfter editing reservation facilities, service is immediately available to guests, \nand reservation status can be checked in real time.',
-      box4_content1: 'Real-time \nreservation status inquiry',
-      box4_content2: 'Reservation status and \nstatus management',
-      box4_content3: 'Flexible and diverse \ncustomized \nreservation system',
-      box4_content4: 'Indoor swimming pool \nrestaurant buffet \nhotel facilities',
+        '호텔 내 예약이 필요한 모든 곳에 사용이 가능한 완전한 예약 기능을 제공합니다. \n예약 시설 편집 후 바로 게스트에게 서비스가 가능하며, \n실시간으로 예약 상황을 확인할 수 있습니다.',
+      box4_content1: '실시간 \n예약 상태 조회',
+      box4_content2: '예약 현황 및 \n상태 관리',
+      box4_content3: '유연하고 다양한 \n맞춤형 \n예약 시스템 제공',
+      box4_content4: '실내 수영장 \n레스토랑 뷔페 \n호텔 시설물',
 
       box5_title: 'Digital Coupon',
       box5_desc:
-        'Now you can provide service with digital coupons instead of cumbersome paper coupons. \nAlong with customer convenience, work efficiency can be maximized through systematic coupon management.',
-      box5_content1: 'Real-time \nusage history and \nstatus inquiry',
-      box5_content2: 'Statistics and \nreport provision',
-      box5_content3: 'On-site usage processing \nmobile order \nautomatic usage processing',
-      box5_content4: 'QR/barcode \noutput support',
+        '이제 번거로운 종이 쿠폰 대신 디지털 쿠폰으로 서비스가 가능합니다. \n고객 편의와 함께 체계적인 쿠폰 관리로 업무 효율을 극대화 할 수 있습니다.',
+      box5_content1: '실시간 \n사용 내역과 \n상태 조회',
+      box5_content2: '통계 및 \n리포트 제공',
+      box5_content3: '현장 사용 처리 \n모바일 오더 \n자동 사용 처리',
+      box5_content4: 'QR/바코드 \n출력 지원',
     },
   },
 
@@ -139,33 +127,73 @@ export default {
       title: 'About',
 
       box1_title: 'Mission',
-      box1_desc: 'Through Digital Transformation, \nwe create new value in \nhotel services.',
+      box1_desc: 'Digital Transformation을 통해 \n호텔 서비스의 \n새로운 가치를 만들어갑니다.',
 
       box2_title: 'Vision',
-      box2_desc: 'Design experience with technology \nand evolve services with data \nglobal service platform',
+      box2_desc: '기술로 경험을 설계하고 \n데이터로 서비스를 진화시키는 \n글로벌 서비스 플랫폼',
 
       box3_title: 'Core Value',
-      box3_desc: 'Innovation of technology \nuser-centered experience \nvalue of trust',
+      box3_desc: '기술의 혁신 \n사용자 중심의 경험 \n신뢰의 가치',
     },
     section3: {
       title: 'History',
-    },
 
-    contact: {
-      home: {
-        title: 'iSTAY is growing in the expanding hotel market.',
-        description:
-          'In the ever-changing hotel industry, iSTAY is growing with innovative technology and flexible services.\nA connection that makes customer experience more valuable,\niSTAY provides a digital concierge solution that enhances the efficiency and dignity of hotel business.',
-      },
-      buttonText: 'Contact Us',
-    },
+      box1_title: '2025',
+      box1_desc1: '코스모스 올모드 계약',
+      box1_desc2: '신한연수원 · 사이벨 리조트 계약',
+      box1_desc3: '한화리조트 · 한림광천 계약',
+      box1_desc4: 'LG 호텔 TV 협업 체결',
 
-    footer: {
-      company: 'Torder Stay Co., Ltd.',
-      address: 'Address: 46F, Park One Tower, 108 Yeoui-daero, Yeongdeungpo-gu, Seoul',
-      businessNumber: 'Business Registration Number: 469-81-00232',
-      contact: 'Tel: 1644-2360 | Email: contactus@torderstay.com',
-      copyright: '© 2025 torderstay. All rights reserved.',
+      box2_title: '2024',
+      box2_desc1: '티오더스테이 사업 통합 및 대주주 변경',
+      box2_desc2: '신라호텔 서울 계약',
+      box2_desc3: 'LG전자 공동 참가 (HCJ 2024, Japan)',
+      box2_desc4: '스카이파크 호텔 · 타다 MOU 체결',
+      box2_desc5: '체크인/웨이팅 통합 솔루션 개발',
+
+      box3_title: '2023',
+      box3_desc1: '인스파이어 엔터테인먼트 리조트 계약',
+      box3_desc2: '테이블오더 서비스 정식 출시',
+      box3_desc3: '일본 유타카검진센터 · 르메르디앙 명동 계약',
+
+      box4_title: '2021',
+      box4_desc1: '조선팰리스 서울 · 소피텔 서울 · 대구 메리어트 계약',
+      box4_desc2: '워커힐 · 앰배서더 · 켄싱턴 · 코오롱 리조트 계약',
+
+      box5_title: '2019 - 2020',
+      box5_desc1: '일본 HCJ 박람회 참가',
+      box5_desc2: '산업통상자원부 기술과제 다수 수행',
+      box5_desc3: '삼성전자 / 아눅전자 / 산업정보통신 NDA 체결',
+      box5_desc4: 'APAC CIO Top 10 IoT Solution 선정',
+
+      box6_title: '2017 - 2018',
+      box6_desc1: 'iSTAY 브랜드 론칭 및 KT MOU 체결',
+      box6_desc2: '앰배서더호텔 그룹 투자유치',
+      box6_desc3: 'TIPS 프로그램 선정 (엔텔스 투자)',
+      box6_desc4: '산업통상자원부 장관상 수상',
+
+      box7_title: '2015 - 2016',
+      box7_desc1: '인더코어 비즈니스플랫폼 법인 설립',
+      box7_desc2: '서울시 스마트조명 MOU 체결 및 iLighting 출시',
+      box7_desc3: '그랜드앰배서더호텔, 노보텔 등 조명 공급',
     },
+  },
+
+  contact: {
+    home: {
+      title: '커져가는 호텔 시장 속에서\niSTAY는 성장하고 있습니다.',
+      description:
+        '끊임없이 변화하는 호텔 산업 속에서, iSTAY는 혁신적인 기술과 유연한 서비스로 성장하고 있습니다.\n고객의 경험을 더 가치 있게 만드는 연결,\niSTAY는 호텔 비즈니스의 효율과 품격을 높이는 디지털 컨시어지 솔루션을 제공합니다.',
+    },
+    buttonText: '문의하기',
+  },
+
+  footer: {
+    company: '(주) 티오더스테이',
+    address: '주소: 서울특별시 영등포구 여의대로 108, 파크원타워 2, 46층',
+    businessNumber: '사업자 등록번호: 469-81-00232',
+    contact: '대표번호: 1644-2360',
+    email: "대표메일: contactus{'@'}torderstay.com",
+    copyright: '© 2025 torderstay. All rights reserved.',
   },
 };
