@@ -10,26 +10,26 @@
           <p>{{ $t('competitiveness.section2.description') }}</p>
         </div>
         <div class="features-overview">
-          <img src="/public/images/competit.png" alt="competit" />
+          <img src="/src/assets/images/competit.png" alt="competit" />
         </div>
         <div class="content-box">
           <div class="box-item">
-            <img src="/public/images/competit_1.png" alt="competit_1" />
+            <img src="/src/assets/images/competit_1.png" alt="competit_1" />
             <h4>{{ $t('competitiveness.section2.box1_title') }}</h4>
             <p>{{ $t('competitiveness.section2.box1_desc') }}</p>
           </div>
           <div class="box-item">
-            <img src="/public/images/competit_2.png" alt="competit_2" />
+            <img src="/src/assets/images/competit_2.png" alt="competit_2" />
             <h4>{{ $t('competitiveness.section2.box2_title') }}</h4>
             <p>{{ $t('competitiveness.section2.box2_desc') }}</p>
           </div>
           <div class="box-item">
-            <img src="/public/images/competit_3.png" alt="competit_3" />
+            <img src="/src/assets/images/competit_3.png" alt="competit_3" />
             <h4>{{ $t('competitiveness.section2.box3_title') }}</h4>
             <p>{{ $t('competitiveness.section2.box3_desc') }}</p>
           </div>
           <div class="box-item">
-            <img src="/public/images/competit_4.png" alt="competit_4" />
+            <img src="/src/assets/images/competit_4.png" alt="competit_4" />
             <h4>{{ $t('competitiveness.section2.box4_title') }}</h4>
             <p>{{ $t('competitiveness.section2.box4_desc') }}</p>
           </div>
@@ -94,9 +94,6 @@ import Technology from '../layouts/technology.vue';
           height: 27rem;
           border-radius: 0.75rem;
           background: #edf1f5;
-          // border: 1px solid #e0e0e0;
-          // border-radius: 0.75rem;
-
           img {
             width: 5rem;
             margin-bottom: 0.6rem;

@@ -2,7 +2,7 @@
   <div class="header">
     <div class="wrapper">
       <router-link :to="{ path: '/', query: { lang: currentLanguage } }" class="content-logo">
-        <img src="/public/images/logo_gnb.png" alt="logo" />
+        <img src="/src/assets/images/logo_gnb.png" alt="logo" />
       </router-link>
       <span class="content-menu">
         <div class="content-language">

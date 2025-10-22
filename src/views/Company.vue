@@ -10,17 +10,17 @@
         </div>
         <div class="content-box">
           <div class="box-item">
-            <img src="/public/images/company_1.png" alt="company_1" />
+            <img src="/src/assets/images/company_1.png" alt="company_1" />
             <h4>{{ $t('company.section2.box1_title') }}</h4>
             <p>{{ $t('company.section2.box1_desc') }}</p>
           </div>
           <div class="box-item">
-            <img src="/public/images/company_2.png" alt="company_2" />
+            <img src="/src/assets/images/company_2.png" alt="company_2" />
             <h4>{{ $t('company.section2.box2_title') }}</h4>
             <p>{{ $t('company.section2.box2_desc') }}</p>
           </div>
           <div class="box-item">
-            <img src="/public/images/company_3.png" alt="company_3" />
+            <img src="/src/assets/images/company_3.png" alt="company_3" />
             <h4>{{ $t('company.section2.box3_title') }}</h4>
             <p>{{ $t('company.section2.box3_desc') }}</p>
           </div>

@@ -39,22 +39,22 @@
       <div class="wrapper">
         <div class="content-box">
           <div class="box-item">
-            <img class="left-img" src="/public/images/features_1.png" alt="box1" />
+            <img class="left-img" src="/src/assets/images/features_1.png" alt="box1" />
             <h2>{{ $t('home.section3.item1_title') }}</h2>
             <p>{{ $t('home.section3.item1_desc') }}</p>
           </div>
           <div class="box-item">
-            <img class="right-img" src="/public/images/features_2.png" alt="box1" />
+            <img class="right-img" src="/src/assets/images/features_2.png" alt="box1" />
             <h2>{{ $t('home.section3.item2_title') }}</h2>
             <p>{{ $t('home.section3.item2_desc') }}</p>
           </div>
           <div class="box-item">
-            <img class="left-img" src="/public/images/features_3.png" alt="box2" />
+            <img class="left-img" src="/src/assets/images/features_3.png" alt="box2" />
             <h2>{{ $t('home.section3.item3_title') }}</h2>
             <p>{{ $t('home.section3.item3_desc') }}</p>
           </div>
           <div class="box-item">
-            <img class="right-img" src="/public/images/features_4.png" alt="box3" />
+            <img class="right-img" src="/src/assets/images/features_4.png" alt="box3" />
             <h2>{{ $t('home.section3.item4_title') }}</h2>
             <p>{{ $t('home.section3.item4_desc') }}</p>
           </div>
@@ -67,7 +67,7 @@
           <h4>{{ $t('home.section4.title') }}</h4>
         </div>
         <div class="content-image">
-          <img src="/public/images/main_client.png" alt="main_client" />
+          <img src="/src/assets/images/main_client.png" alt="main_client" />
         </div>
       </div>
     </div>
@@ -77,7 +77,7 @@
           <h4>{{ $t('home.section5.title') }}</h4>
         </div>
         <div class="content-image">
-          <img src="/public/images/main_partners.png" alt="main_partners" />
+          <img src="/src/assets/images/main_partners.png" alt="main_partners" />
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@
 .home {
   &__section1 {
     height: 67.5rem;
-    background-image: url('/public/images/main_visual.png');
+    background-image: url('/src/assets/images/main_visual.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

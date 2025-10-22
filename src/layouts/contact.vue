@@ -16,7 +16,7 @@
 
 <style lang="scss" scoped>
 .contact {
-  background-image: url('/public/images/contact.png');
+  background-image: url('/src/assets/images/contact.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

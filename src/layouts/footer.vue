@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="wrapper">
       <div class="content-logo">
-        <img src="/public/images/logo_footer.png" alt="logo" />
+        <img src="/src/assets/images/logo_footer.png" alt="logo" />
       </div>
       <div class="content-info">
         <p class="company">{{ $t('footer.company') }}</p>

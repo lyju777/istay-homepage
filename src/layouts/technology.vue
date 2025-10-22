@@ -27,7 +27,7 @@ const currentSection = computed(() => {
 
 <style lang="scss" scoped>
 .technology {
-  background-image: url('/public/images/sub_top_bg.png');
+  background-image: url('/src/assets/images/sub_top_bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

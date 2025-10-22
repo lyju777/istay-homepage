@@ -10,7 +10,7 @@
         </div>
         <div class="content-box">
           <div class="box-item">
-            <img src="/public/images/main_service_1.png" alt="main_service_1" />
+            <img src="/src/assets/images/main_service_1.png" alt="main_service_1" />
             <h3>{{ $t('features.section2.box1_title') }}</h3>
             <p>{{ $t('features.section2.box1_desc') }}</p>
             <div class="box-item-content">
@@ -22,7 +22,7 @@
           </div>
 
           <div class="box-item">
-            <img src="/public/images/main_service_2.png" alt="main_service_2" />
+            <img src="/src/assets/images/main_service_2.png" alt="main_service_2" />
             <h3>{{ $t('features.section2.box2_title') }}</h3>
             <p>{{ $t('features.section2.box2_desc') }}</p>
             <div class="box-item-content">
@@ -34,7 +34,7 @@
           </div>
 
           <div class="box-item">
-            <img src="/public/images/main_service_3.png" alt="main_service_3" />
+            <img src="/src/assets/images/main_service_3.png" alt="main_service_3" />
             <h3>{{ $t('features.section2.box3_title') }}</h3>
             <p>{{ $t('features.section2.box3_desc') }}</p>
             <div class="box-item-content">
@@ -46,7 +46,7 @@
           </div>
 
           <div class="box-item">
-            <img src="/public/images/main_service_4.png" alt="main_service_4" />
+            <img src="/src/assets/images/main_service_4.png" alt="main_service_4" />
             <h3>{{ $t('features.section2.box4_title') }}</h3>
             <p>{{ $t('features.section2.box4_desc') }}</p>
             <div class="box-item-content">
@@ -58,7 +58,7 @@
           </div>
 
           <div class="box-item">
-            <img src="/public/images/main_service_5.png" alt="main_service_4" />
+            <img src="/src/assets/images/main_service_5.png" alt="main_service_4" />
             <h3>{{ $t('features.section2.box5_title') }}</h3>
             <p>{{ $t('features.section2.box5_desc') }}</p>
             <div class="box-item-content">
